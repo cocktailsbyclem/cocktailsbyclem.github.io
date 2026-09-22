@@ -175,7 +175,7 @@ p:last-child{margin-bottom:0;}
   content:"";position:absolute;inset:-14% -8%;
   /* Taille fixe plutot que "cover" : etire sur une grande section, le motif
      donnait des taches enormes au lieu de feuilles. */
-  background:url("assets/leaves.svg") no-repeat center / 1400px auto;
+  background:url("leaves.svg") no-repeat center / 1400px auto;
   opacity:.3;
   will-change:transform;
 }
