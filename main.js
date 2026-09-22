@@ -28,31 +28,31 @@
       type: 'Événement sur mesure',
       texte: "Un barman professionnel directement sur votre événement.",
       detail: "Le bar s'installe sur place : matériel, verrerie, préparation et service. Vous n'avez rien à gérer pendant la soirée.",
-      img: 'dosage-alcool.jpg',
+      img: 'cocktailsbyclem-site/assets/dosage-alcool.jpg',
       alt: "Clem dose l'alcool au jigger au-dessus du blender, pendant le service." },
     { id: 'mariage',    titre: 'Mariages',
       type: 'Mariage',
       texte: "Une animation cocktail élégante et conviviale pour accompagner votre réception.",
       detail: "Vin d'honneur, soirée, ou les deux : la carte et le rythme du service s'adaptent au déroulé de votre journée.",
-      img: 'evenement-vin-honneur.jpg',
+      img: 'cocktailsbyclem-site/assets/evenement-vin-honneur.jpg',
       alt: "Vin d'honneur sous la pergola : les invités se servent au bar installé pour la réception." },
     { id: 'anniv',      titre: 'Anniversaires',
       type: 'Anniversaire',
       texte: "Des cocktails personnalisés pour créer une ambiance festive et mémorable.",
       detail: "On choisit ensemble les cocktails que vos invités vont aimer, avec des versions sans alcool pour tout le monde.",
-      img: 'buffet-evenement.jpg',
+      img: 'cocktailsbyclem-site/assets/buffet-evenement.jpg',
       alt: "Grande table dressée en extérieur : empanadas, bouchées et jarre de cocktail à partager." },
     { id: 'pro',        titre: 'Événements professionnels',
       type: "Événement d'entreprise",
       texte: "Une prestation cocktail adaptée aux entreprises, séminaires et événements professionnels.",
       detail: "Afterwork, lancement, séminaire ou soirée de fin d'année : un format cadré, un devis clair, une installation discrète.",
-      img: 'buffet-canapes.jpg',
+      img: 'cocktailsbyclem-site/assets/buffet-canapes.jpg',
       alt: "Présentoir de bouchées et verres au sel pimenté, prêts pour le service." },
     { id: 'soiree',     titre: 'Soirées privées',
       type: 'Soirée privée',
       texte: "Transformez votre soirée en véritable bar à cocktails.",
       detail: "Chez vous, dans un jardin ou une salle louée : le bar devient le point de rendez-vous de la soirée.",
-      img: 'cocktail-margarita.jpg',
+      img: 'cocktailsbyclem-site/assets/cocktail-margarita.jpg',
       alt: "Margarita au bord givré d'épices, préparée par Clem." },
     { id: 'atelier',    titre: 'Atelier cocktail',
       type: 'Atelier cocktail',
@@ -60,13 +60,13 @@
       detail: "Une idée pour un EVJF, un EVG, un anniversaire, ou simplement pour faire découvrir une nouvelle expérience et impressionner vos amis ou votre famille. Au programme : Mojito, Piña Colada, Margarita…",
       lieu: "Au Barrio Latino, à Clermont-Ferrand",
       prix: "30 € par personne",
-      img: 'pisco-sour-service.jpg',
+      img: 'cocktailsbyclem-site/assets/pisco-sour-service.jpg',
       alt: "Pisco Sours dressés au bar, mousse et cannelle, prêts à être dégustés." },
     { id: 'surmesure',  titre: 'Événements sur mesure',
       type: 'Événement sur mesure',
       texte: "Une prestation entièrement personnalisée selon vos envies.",
       detail: "Une idée qui n'entre dans aucune case ? Décrivez-la dans le formulaire, on construit la formule ensemble.",
-      img: 'dosage-citron.jpg',
+      img: 'cocktailsbyclem-site/assets/dosage-citron.jpg',
       alt: "Dosage du jus de citron vert au jigger : chaque cocktail est mesuré." }
   ];
 
@@ -135,7 +135,7 @@
     </article>` : `
     <article class="ckt">
       <div class="ckt__img">
-        <img src="${c.img}.jpg" alt="Illustration du cocktail ${esc(c.nom)}." width="440" height="440" loading="lazy" decoding="async">
+        <img src="cocktailsbyclem-site/assets/cocktails/${c.img}.jpg" alt="Illustration du cocktail ${esc(c.nom)}." width="440" height="440" loading="lazy" decoding="async">
       </div>
       <h3>${esc(c.nom)}</h3>
       <em class="recipe">${esc(c.recette)}</em>
