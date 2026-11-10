@@ -1,9 +1,9 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
-  <circle cx="32" cy="32" r="32" fill="#FADF70"/>
-  <g fill="none" stroke="#1B3B24" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
-    <path d="M16 20h32L32 40 16 20Z"/>
-    <path d="M32 40v10"/>
-    <path d="M24 50h16"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200"><g transform="translate(0 0) scale(1.0)">
+  <circle cx="100" cy="100" r="96" fill="#FADF70"/>
+  <g fill="none" stroke="#1B3B24" stroke-linecap="round" stroke-linejoin="round">
+    <path stroke-width="3.6" d="M58 68H142M58 68C60 92 80 102 100 102S140 92 142 68M100 102V140M82 144H118"/>
+    <path stroke-width="2.4" d="M67 78C82 84 118 84 133 78"/>
   </g>
-  <circle cx="45" cy="18.5" r="5" fill="#B9491C"/>
-</svg>
+  <circle cx="138" cy="58" r="18" fill="#F4F1E6" stroke="#1B3B24" stroke-width="3"/>
+  <g fill="none" stroke="#1B3B24" stroke-width="1.6"><circle cx="138" cy="58" r="13.5"/><line x1="138" y1="58" x2="151.50" y2="58.00"/><line x1="138" y1="58" x2="147.55" y2="67.55"/><line x1="138" y1="58" x2="138.00" y2="71.50"/><line x1="138" y1="58" x2="128.45" y2="67.55"/><line x1="138" y1="58" x2="124.50" y2="58.00"/><line x1="138" y1="58" x2="128.45" y2="48.45"/><line x1="138" y1="58" x2="138.00" y2="44.50"/><line x1="138" y1="58" x2="147.55" y2="48.45"/></g>
+</g></svg>

@@ -298,6 +298,8 @@ p:last-child{margin-bottom:0;}
 .brand__mark{width:38px;height:38px;flex:none;border-radius:50%;background:var(--sun);
   display:grid;place-content:center;color:var(--forest);box-shadow:var(--lift);}
 .brand__mark .ico{width:22px;height:22px;stroke-width:1.4;}
+svg.brand__mark{background:none;padding:0;display:block;}
+.ftr__logo{margin-bottom:.6em;}.ftr__logo-svg{display:block;width:min(380px,100%);height:auto;}
 .brand__txt{font-family:'Cormorant Garamond',Georgia,serif;text-transform:uppercase;
   font-size:.95rem;letter-spacing:.11em;line-height:1.1;font-weight:400;white-space:nowrap;}
 .brand__txt b{display:block;font-weight:400;}
